@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zachary White | Portfolio</title>
+    <script src="https://kit.fontawesome.com/46712c7b9e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <!-- Loader -->
+    <div class="loader" id="loader">
+        <div class="loader-text" id="loader-text"></div>
+    </div>
+
+    <!-- Animated Background -->
+    <div class="animated-bg"></div>
+
+    <!-- Back Button -->
+    <button class="back-arrow" id="back-arrow">
+        <i class="fas fa-arrow-left"></i>
+    </button>
+
+    <!-- Home screen, with menu buttons -->
+    <section id="main-menu" class="page active">
+        <div class="menu-content">
+            <h1 class="main-title">Zachary White</h1>
+            <p class="subtitle">Computer Science Undergraduate</p>
+            <div class="menu-buttons">
+                <button class="menu-btn" data-page="about">
+                    <i class="fas fa-user"></i>
+                    <span>About</span>
+                </button>
+                <button class="menu-btn" data-page="projects">
+                    <i class="fas fa-code"></i>
+                    <span>Projects</span>
+                </button>
+                <button class="menu-btn" data-page="skills">
+                    <i class="fas fa-tools"></i>
+                    <span>Skills</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- About me screen -->
+    <section id="about" class="page">
+        <div class="page-content">
+            <h1>About Me</h1>
+            <div class="about-content">
+                <img class="me" src="assets/placeholder.jpg" alt="Photo of Zachary White">
+                <div class="about-text">
+                    <p>Hello! I'm Zachary White, a third-year Computer Science student at the University of Northampton. I'm passionate about technology and software development, and I'm excited to take the next step in my career.</p>
+                    <p>Outside of coding, I enjoy fitness, cooking, gaming, and building custom PCs.</p>
+                    <p id="current-time" class="typing-effect"></p>
+                </div>
+            </div>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/zachary-white-84b9a5274/" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/zacharyw2912" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects screen -->
+    <section id="projects" class="page">
+        <div class="page-content">
+            <h1>Projects</h1>
+            <ul id="project_links">
+                <li>
+                    <a href="https://github.com/zacharyw2912/Motion-Tracking-WIP-" target="_blank">
+                        <img src="assets/motion.png" alt="Motion Detection Project">
+                        <h2>Motion Detection</h2>
+                        <p>A Python tool that imports videos and highlights motion within them.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/zacharyw2912/Python-Questions" target="_blank">
+                        <img src="assets/python.svg" alt="Python Projects">
+                        <h2>Python Programs</h2>
+                        <p>A collection of three Python programs created for a university assignment.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/zacharyw2912/Assignment-2" target="_blank">
+                        <img src="assets/game.png" alt="Tank Web Game">
+                        <h2>Tank Web Game</h2>
+                        <p>A browser-based game I developed for a coursework project.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="assets/Technical_report.pdf" target="_blank">
+                        <img src="assets/Java.png" alt="Java Report">
+                        <h2>Java Technical Report</h2>
+                        <p>A technical analysis of an e-commerce Java platform, complete with wireframes and design documentation.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="assets/dissertation.pdf" target="_blank">
+                        <img src="assets/diss.png" alt="Dissertation">
+                        <h2>Final Year Dissertation</h2>
+                        <p>My final year dissertation project exploring advanced computer science concepts and research.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/RobertGDO/Roberts-Motors" target="_blank">
+                        <img src="assets/pph.png" alt="Car Dealer Website">
+                        <h2>E-Commerce Car Dealer</h2>
+                        <p>A group project where we built a car dealership website using HTML, CSS, JavaScript, and PHP.</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Skills screen -->
+    <section id="skills" class="page">
+        <div class="page-content">
+            <h1>Skills</h1>
+            <div class="skills-icons">
+                <div class="skill-item">
+                    <i class="fa-brands fa-java"></i>
+                    <span>Java</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fa-brands fa-python"></i>
+                    <span>Python</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fa-brands fa-html5"></i>
+                    <span>HTML5</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <span>CSS3</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fa-brands fa-php"></i>
+                    <span>PHP</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
